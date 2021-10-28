@@ -1,0 +1,23 @@
+{
+    "testcase1":{
+       "header":{
+          "Content-Type": "application/json"
+       },
+       "body": "{\"username\":\"xyz\",\"password\":\"xyz\"}",
+       "method":"GET"
+    },
+    "testcase2":{
+       "header":{
+        "Content-Type": "application/json"
+       },
+       "body":"{\"username\":\"xyz\",\"password\":\"xyz\"}",
+       "method":"POST"
+    },
+    "testcase3":{
+        "header":{
+         "Content-Type": "text/html; charset=UTF-8"
+        },
+        "body":"this is a test",
+        "method":"POST"
+     }
+ }
