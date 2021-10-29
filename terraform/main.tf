@@ -6,11 +6,11 @@ module "lambda_function" {
   source = "terraform-aws-modules/lambda/aws"
 
   function_name = "wm_api_lambda"
-  description   = "My awesome lambda function"
-  handler       = "wm_api-lambda.lambda_handler"
+  description   = "WM api function"
+  handler       = "app.lambda_handler"
   runtime       = "python3.8"
 
-  source_path = "../app/"
+  source_path = "../src/app"
 
   tags = {
     Name = "WM-Challenge_Lambda"
