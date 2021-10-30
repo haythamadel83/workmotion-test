@@ -7,7 +7,7 @@ module "lambda_function" {
 
   function_name = "wm_api_lambda"
   description   = "WM api function"
-  handler       = "app.wm_api"
+  handler       = "app.lambda_handler"
   runtime       = "python3.8"
 
   source_path = "../src/app"
