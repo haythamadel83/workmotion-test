@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 
 
+
 @app.route('/api', methods=['POST','GET'])
 def wm_api():
         message = 'Welcome to our demo API, here are the details of your request:'
